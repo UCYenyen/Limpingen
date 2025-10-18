@@ -1,4 +1,4 @@
-<nav class="w-100 fixed-top">
+<nav class="mt-4 w-100 fixed-top">
     <div class="w-100 px-24 d-flex justify-content-between align-items-center">
         <a class="nav-link" href="/"><img src="/images/limpingen-logo.svg" alt=""></a>
         <ul class="d-flex text-white fw-semibold align-items-center gap-4 mb-0">
