@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
@@ -16,6 +17,4 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/projects', function () {
-    return view('projects');
-});
+Route::get('/projects', [ProjectController::class, 'index']);
