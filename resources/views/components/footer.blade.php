@@ -1,6 +1,6 @@
 <footer class="w-100 mt-24 d-flex flex-column justify-content-between align-items-center bg-mid-blue text-white">
     {{-- atas --}}
-    <div class="d-flex w-100 flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start p-8 gap-8" style="width: 90%">
+    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start p-8 gap-8" style="width: 90%">
         <div class="d-flex flex-column justify-content-center align-items-center align-items-lg-start gap-4">
             <h2 class="fs-2 fw-bold">Limpingen</h2>
             <div class="d-flex gap-4">
