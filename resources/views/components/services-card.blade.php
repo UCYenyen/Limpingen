@@ -1,4 +1,4 @@
-<div class="d-flex p-4 flex-column gap-4 bg-white shadow-lg rounded-lg services-card" style="width:330px">
+<div class="d-flex p-4 flex-column gap-4 bg-white shadow-lg rounded-lg services-card">
     <div class="rounded-full bg-icon p-2" style="width: fit-content">
         <img src="/images/home/crown.svg" width="60" height="60" alt="">
     </div>

@@ -43,36 +43,6 @@ body{
     object-fit: fill;
     object-position: center;
 }
-
-/* Responsive Typography */
-@media (max-width: 991px) {
-    .fs-hero {
-        font-size: 2.5rem !important;
-    }
-}
-
-/* Navbar Mobile Fix */
-.navbar-collapse {
-    background-color: rgba(46, 61, 138, 0.95);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-}
-
-@media (min-width: 992px) {
-    .navbar-collapse {
-        background-color: transparent;
-        padding: 0;
-        margin-top: 0;
-    }
-}
-
 .w-lg-60 {
     width: 100%;
-}
-
-@media (min-width: 992px) {
-    .w-lg-60 {
-        width: 60%;
-    }
 }
