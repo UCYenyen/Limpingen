@@ -39,3 +39,7 @@ body{
 .text-description{
     color: #DDDDDD;
 }
+.cover{
+    object-fit: fill;
+    object-position: center;
+}

@@ -17,7 +17,7 @@
 <body>
     @include('components.navbar')
     @yield('content')
-    {{-- @include('components.Footer') --}}
+    @include('components.footer')
 </body>
 
 </html>
