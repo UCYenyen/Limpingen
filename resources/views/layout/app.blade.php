@@ -21,23 +21,11 @@
     @yield('content')
     <x-footer/>
     <script>
-        // 1. Ambil tombol hamburger dan panel menu
         const hamburgerBtn = document.getElementById('hamburgerButton');
         const mobilePanel = document.getElementById('panelMenuMobile');
-
-        // 2. Pastikan kedua elemen ada sebelum menambahkan listener
         if (hamburgerBtn && mobilePanel) {
-
-            // 3. Tambahkan 'event listener' untuk 'click'
             hamburgerBtn.addEventListener('click', function() {
-
-                // 4. Toggle (tambah/hapus) kelas 'show' pada panel
-                //    Inilah yang memicu CSS transisi Anda
                 mobilePanel.classList.toggle('show');
-
-                // (Opsional) Tambahkan kelas 'active' ke tombol itu sendiri
-                // jika Anda ingin mengubah style tombolnya (misal jadi 'X')
-                // hamburgerBtn.classList.toggle('active');
             });
         }
     </script>

@@ -5,7 +5,7 @@
         <div class="d-flex flex-column justify-content-center align-items-center align-items-lg-start gap-4">
             <h2 class="fs-2 fw-bold">Limpingen</h2>
             <div class="d-flex gap-4 align-items-center">
-                <a href="https://wa.me/+6287722727717">
+                <a href="https://wa.me/+6287722727717" target="_blank">
                     <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -14,7 +14,7 @@
                     </svg>
                 </a>
 
-                <a href="mailto:limpingensoftcomp@gmail.com">
+                <a href="mailto:limpingensoftcomp@gmail.com" target="_blank">
                     <svg width="48" height="38" viewBox="0 0 48 38" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -30,9 +30,9 @@
                 <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
                     +62 877 227 277 17
                 </p>
-                <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
+                <a href="mailto:limpingensoftcomp@gmail.com" class="fs-6 fw-normal mb-0 text-center text-white text-lg-start" style="max-width: 300px;">
                     limpingensoftcomp@gmail.com
-                </p>
+                </a>
                 <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
                     Jl. Raja H. Fisabililah 28, Sei Jang, Bukit Bestari,
                     Kota Tanjung Pinang Kepulauan Riau 29123
@@ -40,18 +40,18 @@
             </div>
             <div class="d-flex flex-column gap-4 align-items-center align-items-lg-start">
                 <h2 class="fs-2 fw-bold">Services</h2>
-                <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
+                <a href="/pricing" class="fs-6 fw-normal text-white mb-0 text-center text-lg-start" style="max-width: 300px;">
                     Websites
-                </p>
-                <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
+                </a> 
+                <a href="/pricing" class="fs-6 fw-normal text-white mb-0 text-center text-lg-start" style="max-width: 300px;">
                     Mobile apps
-                </p>
-                <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
+                </a>
+                <a href="/pricing" class="fs-6 fw-normal text-white mb-0 text-center text-lg-start" style="max-width: 300px;">
                     Digital marketing
-                </p>
-                <p class="fs-6 fw-normal mb-0 text-center text-lg-start" style="max-width: 300px;">
+                </a>
+                <a href="/pricing" class="fs-6 fw-normal text-white mb-0 text-center text-lg-start" style="max-width: 300px;">
                     E-Commerce
-                </p>
+                </a>
             </div>
         </div>
     </div>

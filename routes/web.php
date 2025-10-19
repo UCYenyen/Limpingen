@@ -17,6 +17,8 @@ Route::get('/register', function () {
     return view('register');
 });
 
+// Route::get('/services/{id}/packages', [ServiceController::class, 'getPackages']);
+
 Route::get('/pricing', [PackageController::class, 'index']);
 
 Route::get('/projects', [ProjectController::class, 'index']);
