@@ -121,7 +121,7 @@
                 </div>
             </div>
             <a href="" class="py-4">
-                <h3 class="fw-semibold fs-5 py-3 px-8 px-lg-16 bg-white w-fit rounded-3 text-button-blue ">Get Started</h3>
+                <h3 class="fw-semibold fs-5 py-3 px-8 px-lg-16 btn-white w-fit rounded-3">Get Started</h3>
             </a>
         </div>
     </div>

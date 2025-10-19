@@ -1,0 +1,66 @@
+.bg-dark-blue {
+    background-color: #2e3d8a;
+}
+.bg-mid-blue {
+    background-color: #3b4ea1;
+}
+.btn-blue {
+    background-color: #5d71d6 !important;
+    transition: background-color 0.3s ease;
+     color: white !important;
+}
+.btn-blue:hover  {
+    background-color: #2e3d8a !important;
+    color: white !important;
+}
+.btn-white{
+    background-color: white !important;
+    transition: background-color 0.3s ease;
+    color: #2e3d8a;
+}
+.btn-white:hover{
+    background-color: #dbdbdb !important;
+    transition: background-color 0.3s ease;
+    color: #2e3d8a;
+}
+.text-button-blue {
+    color: #2e3d8a !important;
+}
+.text-button-blue:hover {
+    color: white !important;
+}
+.bg-icon {
+    background-color: #f0f2f6;
+}
+
+.services-card {
+    border-bottom: 4px solid #5d71d6;
+}
+.text-description {
+    color: #dddddd;
+}
+.cover {
+    object-fit: fill;
+    object-position: center;
+}
+.w-lg-60 {
+    width: 100%;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.services-card:hover {
+    background-color: #6366f1 !important;
+    transform: translateY(-5px);
+}
+
+.services-card:hover h3,
+.services-card:hover h4,
+.services-card:hover p,
+.services-card:hover a {
+    color: white !important;
+}

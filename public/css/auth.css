@@ -10,11 +10,15 @@
     padding-left: 0;
     padding-right: 0;
 }
-.btn-login {
-    background: #5D71D6;
+.login-btn {
+    background-color: #5D71D6 !important;
     border: none;
     border-radius: 10px;
     box-shadow: 0 6px 0 rgba(93,113,214,0.18);
+    transition: all 0.3s ease;
+}
+.login-btn:hover {
+    background-color: #2e3d8a !important;
 }
 .card-shadow {
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);

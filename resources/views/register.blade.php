@@ -2,18 +2,15 @@
 @section('title', 'Login')
 
 @section('content')
-<link rel="stylesheet" href="/css/login.css">
+<link rel="stylesheet" href="/css/auth.css">
 <div class="container-fluid min-vh-100 p-0">
     <div class="row g-0 min-vh-100">
-        <!-- kiri: form -->
         <div class="col-12 login-left d-flex align-items-center justify-content-center bg-white">
             <div class="card login-card card-shadow">
                 <div class="card-body">
-                    <h5 class="text-center fw-bold mb-4">Login</h5>
+                    <h5 class="text-center fw-bold mb-4">Register</h5>
 
                     <form method="">
-                        @csrf
-
                         <div class="mb-3">
                             <label class="form-label small">Name</label>
                             <input type="text" name="name" class="form-control input-underline" />
@@ -39,7 +36,7 @@
                             <input type="password" name="password_confirmation" class="form-control input-underline" />
                         </div>
 
-                        <button type="submit" class="btn btn-login w-100 py-2 text-white">Register</button>
+                        <button type="submit" class="login-btn w-100 py-2 text-white">Register</button>
                         
                         <p class="text-center mt-3 mb-0">
                             Already have an account?
@@ -51,8 +48,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- kanan: gambar -->
         <div class="col-12 d-none d-md-block login-right"
              style="background-image: url('/images/login/login-image.webp'); background-size: cover; background-position: center;">
         </div>

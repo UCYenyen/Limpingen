@@ -1,4 +1,4 @@
-<div class="d-flex p-4 flex-column align-items-center align-items-sm-start gap-4 bg-white shadow-lg rounded-lg services-card">
+<div class="d-flex p-4 flex-column align-items-center align-items-sm-start gap-4 bg-white shadow-lg rounded-lg services-card" style="transition: all 0.3s ease;">
     <div class="rounded-full bg-icon p-2" style="width: fit-content">
         @if ($service_type == "Websites")
             <img src="/images/home/crown.svg" draggable="false" width="50" height="50" alt="">
