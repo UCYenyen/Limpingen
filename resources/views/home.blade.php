@@ -42,10 +42,10 @@
 
     {{-- about us --}}
     <div class="mt-24 d-flex min-vh-100 flex-column flex-lg-row justify-content-end w-100 bg-dark-blue position-relative">
-        <img src="/images/home/about-left-image.webp" class="about-image h-auto position-absolute d-none d-lg-block left-0" width="400"
-            style="width: 40%; bottom: -15%" height="400" alt="">
-             <div src="/images/home/about-left-image.webp" class="h-100 w-75 d-none d-lg-block" width="100%"></div>
-        <div class="right-container d-flex flex-column align-items-sm-start align-items-center justify-content-center p-4 gap-4"
+        <img src="/images/home/about-left-image.webp" class="about-image h-auto position-absolute left-0" width="400"
+            height="400" alt="">
+             <div class="about-image h-100 w-75" width="100%"></div>
+        <div class="right-container d-flex flex-column align-items-xl-start align-items-center justify-content-center p-4 gap-4"
             style="width: 100%">
             <h1 class="fs-1 fw-bold text-white">About us</h1>
             <p class="fs-5 fw-normal text-justify text-description" style="width: 90%">
@@ -115,7 +115,7 @@
 
     {{-- Projects --}}
     <div
-        class="mt-24 d-flex min-vh-100 flex-column align-items-center justify-content-start gap-8 px-24 w-100 position-relative">
+        class="mt-24 d-flex min-vh-100 flex-column align-items-center justify-content-start gap-15 px-4 px-md-8 px-lg-12 w-100 position-relative">
         <h1 class="fs-1 fw-bold text-black">Projects</h1>
         @include('components.project')
         @include('components.project')

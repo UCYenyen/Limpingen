@@ -5,7 +5,6 @@
                 <a class="nav-link" href="/"><img src="/images/limpingen-logo.svg" alt=""></a>
 
                 <div class="d-none d-md-flex flex text-black fw-semibold align-items-center gap-4 mb-0">
-                    <a class="nav-link" href="project">About</a>
                     <a class="nav-link" href="project">Projects</a>
                     <a class="nav-link" href="project">Services</a>
                     <a class="nav-link py-2 px-4 bg-dark-blue rounded-2 text-white" href="project" style="background-color: #5D71D6;">Login</a>
@@ -21,7 +20,6 @@
     </div>
     <div class="mobile-panel d-md-none" id="panelMenuMobile">
         <div class="d-flex flex-column text-black fw-semibold align-items-center gap-3 mt-4 mb-3">
-            <a class="nav-link" href="project">About</a>
             <a class="nav-link" href="project">Projects</a>
             <a class="nav-link" href="project">Services</a>
             <a class="nav-link py-2 px-4 rounded-2 text-white" style="background-color: #5D71D6"  href="project">Login</a>
