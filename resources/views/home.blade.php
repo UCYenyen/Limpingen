@@ -32,7 +32,7 @@
     {{-- services --}}
     <div class="d-flex mt-24 flex-column justify-content-center align-items-center gap-4">
         <h2 class="fw-bold w-sm-100 text-center fs-1" style="width: 60%">We Provide the Best Services</h2>
-        <div class="services-card-container row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 w-100 justify-content-center">
+        <div class="services-card-container row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center" style="width: 92%">
             <div class="col d-flex justify-content-center"> @include('components.services-card')</div>
             <div class="col d-flex justify-content-center"> @include('components.services-card')</div>
             <div class="col d-flex justify-content-center"> @include('components.services-card')</div>
@@ -48,18 +48,18 @@
         <div class="right-container d-flex flex-column align-items-sm-start align-items-center justify-content-center p-4 gap-4"
             style="width: 100%">
             <h1 class="fs-1 fw-bold text-white">About us</h1>
-            <p class="fs-5 fw-normal text-justify text-description w-100">
+            <p class="fs-5 fw-normal text-justify text-description" style="width: 90%">
                 Limpingen Soft Comp was founded by Jeffrey Lim, a University of Technology, Sydney graduate (B.Comp,
                 M.C.S.). With over two decades of industry experience, we combine deep technical knowledge with a commitment
                 to delivering excellence on every project.
             </p>
-            <p class="fs-5 fw-normal text-justify text-description w-100">
+            <p class="fs-5 fw-normal text-justify text-description" style="width: 90%">
                 We build powerful, custom-designed websites and applications to help your business succeed. Based in Tanjung
                 Pinang, we partner with clients across Indonesia and around the world to bring their digital vision to life.
             </p>
 
             {{-- motto --}}
-            <div class="d-flex w-100 gap-4 justify-content-start align-items-center">
+            <div class="d-flex w-sm-100 gap-4 justify-content-start align-items-center" style="width: 90%">
                 <div class="d-flex justify-content-center align-items-center bg-mid-blue rounded-full py-3 px-7"
                     style="width: fit-content; height: fit-content;">
                     <p class="text-white fs-4 m-0">1</p>
@@ -71,7 +71,7 @@
                         development</p>
                 </div>
             </div>
-            <div class="d-flex w-100 gap-4 justify-content-start align-items-center">
+            <div class="d-flex w-sm-100 gap-4 justify-content-start align-items-center" style="width: 90%">
                 <div class="d-flex justify-content-center align-items-center bg-mid-blue rounded-full py-3 px-7"
                     style="width: fit-content; height: fit-content;">
                     <p class="text-white fs-4 m-0">2</p>
@@ -83,7 +83,7 @@
                         important for long lasting relationship</p>
                 </div>
             </div>
-            <div class="d-flex w-100 gap-4 justify-content-start align-items-center">
+            <div class="d-flex w-sm-100 gap-4 justify-content-start align-items-center" style="width: 90%">
                 <div class="d-flex justify-content-center align-items-center bg-mid-blue rounded-full py-3 px-7"
                     style="width: fit-content; height: fit-content;">
                     <p class="text-white fs-4 m-0">3</p>
@@ -95,7 +95,7 @@
                         React Native, Android Studio, etc</p>
                 </div>
             </div>
-            <div class="d-flex w-100 gap-4 justify-content-start align-items-center">
+            <div class="d-flex w-sm-100 gap-4 justify-content-start align-items-center" style="width: 90%">
                 <div class="d-flex justify-content-center align-items-center bg-mid-blue rounded-full py-3 px-7"
                     style="width: fit-content; height: fit-content;">
                     <p class="text-white fs-4 m-0">4</p>

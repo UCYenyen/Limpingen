@@ -1,4 +1,4 @@
-<div class="d-flex flex gap-4 w-100 p-4 rounded-lg shadow-lg">
+<div class="d-flex flex align-items-center gap-4 w-100 p-4 rounded-lg shadow-lg">
     <img src="/images/projects/mysabda.svg" style="width: 30%;" height="100" class="cover" alt="project image">
     <div class="d-flex flex-column gap-4 justify-content-start" style="width: 60%">
         <h2 class="fs-2 fw-bold text-black">MySabda</h2>
