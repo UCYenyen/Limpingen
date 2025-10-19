@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/navbar.css">
 <nav class="bg-white w-100 fixed-top overflow-hidden shadow-sm">
     <div class="row justify-content-center">
         <div class="col-10 col-md-11">

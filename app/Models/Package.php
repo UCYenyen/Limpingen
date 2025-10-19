@@ -16,9 +16,12 @@ class Package extends Model
         'price',
         'service_Id',
     ];
-    
+
     public function service()
     {
         return $this->belongsTo(Service::class);
+    }
+    public function getAllPackages() {
+        return self::all();
     }
 }

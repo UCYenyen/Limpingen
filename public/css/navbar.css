@@ -1,0 +1,25 @@
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+}
+.mobile-panel {
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+
+    transition: max-height 0.35s ease-out;
+}
+
+.mobile-panel.show {
+    max-height: 500px;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+}

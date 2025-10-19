@@ -2,6 +2,7 @@
 @section('title', 'Home')
 
 @section('content')
+<link href="/css/home.css" rel="stylesheet">
     {{-- hero --}}
     <div class="d-flex min-vw-100 min-vh-100 position-relative">
         {{-- left --}}
