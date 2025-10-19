@@ -41,9 +41,9 @@
             @foreach ($allServices as $service)
                 <div class="col d-flex justify-content-center">
                     <x-services-card>
-                        <x-slot name="service_type">
+                        <x-slot:service_type>
                             {{ $service->name }}
-                        </x-slot>
+                        </x-slot:service_type>
                         {{ $service->description }}
                     </x-services-card>
                 </div>
@@ -130,9 +130,17 @@
     <div
         class="mt-24 mb-24 d-flex min-vh-100 flex-column align-items-center justify-content-start gap-15 px-4 px-md-8 px-lg-12 w-100 position-relative">
         <h1 class="fs-1 fw-bold text-black">Projects</h1>
-        @include('components.project')
-        @include('components.project')
-        @include('components.project')
+        @foreach ($featuredProjects as $project)
+            <x-project>
+                <x-slot:src>
+                    {{$project->image_url}}
+                </x-slot:src>
+                <x-slot:name>
+                    {{ $project->name }}
+                </x-slot:name>
+                {{ $project->description }}
+            </x-project>
+        @endforeach
         <a href="" class="py-4">
             <h3 class="fw-semibold fs-5 py-3 px-8 btn-blue w-fit rounded-3 text-white ">Show more</h3>
         </a>
