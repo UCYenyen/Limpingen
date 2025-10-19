@@ -21,6 +21,10 @@ class Package extends Model
     {
         return $this->belongsTo(Service::class);
     }
+    public function request()
+    {
+        return $this->hasMany(Request::class);
+    }
     public function getAllPackages() {
         return self::all();
     }
