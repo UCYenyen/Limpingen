@@ -1,0 +1,31 @@
+.login-card {
+    width: 360px;
+    border-radius: 12px;
+}
+.login-card .card-body { padding: 28px; }
+.input-underline {
+    border: 0;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-login {
+    background: #5D71D6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(93,113,214,0.18);
+}
+.card-shadow {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+@media (min-width: 768px) {
+    .login-left {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .login-right {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}

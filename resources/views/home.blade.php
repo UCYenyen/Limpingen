@@ -20,13 +20,13 @@
                 </div>
             </div>
             <div class="d-flex px-12 justify-content-center align-items-center gap-4">
-                <img src="/images/home/scroll-down.svg" class="shadow-lg rounded-full w-md-50 w-25" width="80" height="80"
+                <img src="/images/home/scroll-down.svg" draggable="false" class="shadow-lg rounded-full w-md-50 w-25" width="80" height="80"
                     alt="">
                 <h3 class="text-black fs-4">Scroll Down</h3>
             </div>
         </div>
         {{-- right --}}
-        <img src="/images/home/home-dekstop-hero.webp" class="w-50 h-auto d-none d-md-block" width="400" height="400" alt="">
+        <img src="/images/home/home-dekstop-hero.webp" draggable="false" class="w-50 h-auto d-none d-md-block" width="400" height="400" alt="">
     </div>
 
     {{-- services --}}
@@ -42,7 +42,7 @@
 
     {{-- about us --}}
     <div class="mt-24 d-flex min-vh-100 flex-column flex-lg-row justify-content-end w-100 bg-dark-blue position-relative">
-        <img src="/images/home/about-left-image.webp" class="about-image h-auto position-absolute left-0" width="400"
+        <img src="/images/home/about-left-image.webp" draggable="false" class="about-image h-auto position-absolute left-0" width="400"
             height="400" alt="">
              <div class="about-image h-100 w-75" width="100%"></div>
         <div class="right-container d-flex flex-column align-items-xl-start align-items-center justify-content-center p-4 gap-4"
@@ -115,7 +115,7 @@
 
     {{-- Projects --}}
     <div
-        class="mt-24 d-flex min-vh-100 flex-column align-items-center justify-content-start gap-15 px-4 px-md-8 px-lg-12 w-100 position-relative">
+        class="mt-24 mb-24 d-flex min-vh-100 flex-column align-items-center justify-content-start gap-15 px-4 px-md-8 px-lg-12 w-100 position-relative">
         <h1 class="fs-1 fw-bold text-black">Projects</h1>
         @include('components.project')
         @include('components.project')
