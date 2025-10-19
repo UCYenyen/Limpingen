@@ -14,7 +14,7 @@ class Package extends Model
         'name',
         'desription',
         'price',
-        'service_Id',
+        'service_id',
     ];
 
     public function service()

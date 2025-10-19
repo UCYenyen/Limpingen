@@ -23,7 +23,7 @@ class Project extends Model
     }
 
     public function getFeaturedProjects(){
-        return self::latest()->limit(4)->get();
+        return self::latest()->limit(3)->get();
     }
     
     public function getAllProjects() {

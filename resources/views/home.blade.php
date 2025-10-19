@@ -141,7 +141,7 @@
                 {{ $project->description }}
             </x-project>
         @endforeach
-        <a href="" class="py-4">
+        <a href="/projects" class="py-4">
             <h3 class="fw-semibold fs-5 py-3 px-8 btn-blue w-fit rounded-3 text-white ">Show more</h3>
         </a>
     </div>
