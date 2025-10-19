@@ -1,0 +1,17 @@
+.request-card {
+    max-width: 560px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.input-underline {
+    border: 0;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 0;
+    padding: 0.5rem 0;
+}
+.request-btn {
+    background: #5d71d6;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(93, 113, 214, 0.18);
+    border: none;
+}

@@ -2,9 +2,12 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/request', [ServiceController::class, 'request']);
 
 Route::get('/login', function () {
     return view('login');
