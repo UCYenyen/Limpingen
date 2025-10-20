@@ -5,5 +5,8 @@
         <p class="fs-5 fw-normal text-justify text-black">
             {{$slot}}
         </p>
+        <a href="/projects/{{$id}}" class="btn btn-blue w-fit px-4 py-2 text-white" style="background-color: #5D71D6; width: fit-content;">
+            View Details
+        </a>
     </div>
 </div>

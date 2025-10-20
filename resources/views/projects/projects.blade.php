@@ -5,6 +5,9 @@
     <div class="row mb-24 row-cols-1 g-4 justify-content-center">
         @foreach ($allProjects as $project)
         <x-project>
+                <x-slot:id>
+                    {{ $project->id }}
+                </x-slot:id>
                 <x-slot:name>
                     {{ $project->name }}
                 </x-slot:name>

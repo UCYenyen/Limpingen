@@ -10,8 +10,17 @@ class ProjectController extends Controller
     {        
         $allProjects = Project::all();
         
-        return view('projects', [
+        return view('projects.projects', [
             'allProjects' => $allProjects
+        ]);
+    }
+
+    public function show($id)
+    {
+        $project = Project::findOrFail($id);
+        
+        return view('projects.project-detail', [
+            'project' => $project
         ]);
     }
 }

@@ -132,6 +132,9 @@
         <h1 class="fs-1 fw-bold text-black">Projects</h1>
         @foreach ($featuredProjects as $project)
             <x-project>
+                <x-slot:id>
+                    {{$project->id}}
+                </x-slot:id>
                 <x-slot:src>
                     {{$project->image_url}}
                 </x-slot:src>

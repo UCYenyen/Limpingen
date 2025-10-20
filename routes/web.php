@@ -14,8 +14,7 @@ Route::get('/request', [ServiceController::class, 'request']);
 Route::get('/login', [UserController::class, 'login']);
 Route::get('/register', [UserController::class, 'register']);
 
-// Route::get('/services/{id}/packages', [ServiceController::class, 'getPackages']);
-
 Route::get('/pricing', [PackageController::class, 'index']);
 
 Route::get('/projects', [ProjectController::class, 'index']);
+Route::get('/projects/{id}', [ProjectController::class, 'show']);
