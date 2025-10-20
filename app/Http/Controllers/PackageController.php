@@ -9,8 +9,7 @@ class PackageController extends Controller
 {
     public function index()
     {
-        $packageModel = new Package();
-        $allPackages = $packageModel->getAllPackages();
+        $allPackages = Package::all();
         
         return view('pricing', [
             'allPackages' => $allPackages

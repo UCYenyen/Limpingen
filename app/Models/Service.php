@@ -20,7 +20,4 @@ class Service extends Model
     {
         return $this->hasMany(Package::class);
     }
-    public function getAllServices() {
-        return self::all();
-    }
 }

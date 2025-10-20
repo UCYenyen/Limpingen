@@ -9,11 +9,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $servicesModel = new Service();
-        $allServices = $servicesModel->getAllServices();
+        $allServices = Service::all();
         
-        $projectsModel = new Project();
-        $featuredProjects = $projectsModel->getFeaturedProjects();
+        $featuredProjects = Project::latest()->limit(3)->get();
         
         return view('home', [
             'featuredProjects' => $featuredProjects,

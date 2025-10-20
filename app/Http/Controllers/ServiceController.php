@@ -9,8 +9,7 @@ class ServiceController extends Controller
 {
     public function request()
     {
-        $servicesModel = new Service();
-        $allServices = $servicesModel->getAllServices();
+        $allServices = Service::all();
         
         return view('request', [
             'allServices' => $allServices

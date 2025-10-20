@@ -21,12 +21,4 @@ class Project extends Model
     {
         return $this->belongsTo(User::class);
     }
-
-    public function getFeaturedProjects(){
-        return self::latest()->limit(3)->get();
-    }
-    
-    public function getAllProjects() {
-        return self::all();
-    }
 }

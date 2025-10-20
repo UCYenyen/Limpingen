@@ -8,8 +8,7 @@ class ProjectController extends Controller
 {
     public function index()
     {        
-        $projectsModel = new Project();
-        $allProjects = $projectsModel->getAllProjects();
+        $allProjects = Project::all();
         
         return view('projects', [
             'allProjects' => $allProjects
