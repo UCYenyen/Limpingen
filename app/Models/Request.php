@@ -17,12 +17,12 @@ class Request extends Model
         'package_id',
     ];
 
-    public function user()
+    public function users()
     {
         return $this->belongsTo(User::class);
     }
 
-    public function package()
+    public function packages()
     {
         return $this->belongsTo(Package::class);
     }

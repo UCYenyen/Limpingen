@@ -17,11 +17,11 @@ class Package extends Model
         'service_id',
     ];
 
-    public function service()
+    public function services()
     {
         return $this->belongsTo(Service::class);
     }
-    public function request()
+    public function requests()
     {
         return $this->hasMany(Request::class);
     }
