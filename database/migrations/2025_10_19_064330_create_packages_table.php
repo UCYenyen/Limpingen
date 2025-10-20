@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('description');
             $table->string('price')->default(0);
-            $table->foreignId('service_id')->constrained('services')->onDeelete('cascade');
+            $table->foreignId('service_id')->constrained('services')->onDelete('cascade');
         });
     }
 
