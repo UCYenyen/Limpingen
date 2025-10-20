@@ -18,7 +18,7 @@
                     <div class="d-flex flex-column align-items-md-start align-items-center mb-0 gap-4">
                         <h2 class="fw-normal w-75 fs-4 text-md-start text-center">Advance and expand your business so that
                             it is better known.</h2>
-                        <h3 class="fw-semibold fs-5 py-3 px-8 btn-blue w-fit rounded-3 text-white ">Start now</h3>
+                        <h3 class="fw-semibold fs-5 py-3 px-8 btn-blue w-fit rounded-3 text-white "><a href="/pricing" class="text-white">Start now</a></h3>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         also relationship with clients</p>
                 </div>
             </div>
-            <a href="" class="py-4">
+            <a href="/pricing" class="py-4">
                 <h3 class="fw-semibold fs-5 py-3 px-8 px-lg-16 btn-white w-fit rounded-3">Get Started</h3>
             </a>
         </div>
