@@ -7,7 +7,7 @@
     <div class="card request-card w-100">
         <div class="card-body p-4 p-md-5">
             <h3 class="text-center fw-bold mb-4">Request</h3>
-            <form method="POST" action="{{ url('/requests') }}">
+            <form method="" action="">
                 <div class="mb-4">
                     <label class="form-label fw-semibold">Service Type</label>
                     <select id="serviceSelect" name="service_id" class="form-select input-underline text-description" aria-label="Service type">

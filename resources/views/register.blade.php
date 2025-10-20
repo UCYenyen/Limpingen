@@ -9,7 +9,6 @@
             <div class="card login-card card-shadow">
                 <div class="card-body">
                     <h5 class="text-center fw-bold mb-4">Register</h5>
-
                     <form method="">
                         <div class="mb-3">
                             <label class="form-label small">Name</label>
