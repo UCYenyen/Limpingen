@@ -28,5 +28,13 @@ class UserSeeder extends Seeder
             'phone_number' => '082327701882',
             'role' => 'viewer'
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'Bryan',
+            'email' => 'bryanfernandodinata@gmail.com',
+            'password' => 'bryan123',
+            'phone_number' => '081231847161',
+            'role' => 'viewer'
+        ]);
     }
 }
